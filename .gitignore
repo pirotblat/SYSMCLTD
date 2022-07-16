@@ -7,6 +7,8 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+/FrontEnd/SYSMCLTD_App/node_modules
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -39,11 +41,11 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
-jspm_packages/
+/node_modules
+/jspm_packages
 
 # Snowpack dependency directory (https://snowpack.dev/)
-web_modules/
+/web_modules
 
 # TypeScript cache
 *.tsbuildinfo
